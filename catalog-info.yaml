@@ -5,10 +5,10 @@ metadata:
   name: sample-service
   description: demo service
   annotations:
-    github.com/project-slug: rockesh7/test
+    github.com/project-slug: rockesh7/backstage-demo
 spec:
   type: service
-  owner: team-a:user
+  owner: team-a
   lifecycle: experimental
   dependsOn:
     - component:example-website
